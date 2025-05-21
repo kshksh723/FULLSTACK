@@ -104,3 +104,90 @@ console.log("===============");
 2) AND(&&) : 둘 중 하나라도 거짓이면 거짓
 3) NOT(!) : 참이면 거짓, 거짓이면 참
 */
+let boolD = true;
+let boolE = false;
+
+console.log(boolD || boolE); // true
+
+console.log("=========");
+
+let boolF = true;
+let boolG = false;
+console.log(boolF && boolG); // false
+
+console.log("=========");
+
+let boolH = true;
+let boolI = false;
+
+console.log(!boolH); // false
+console.log(!boolI); // true
+console.log("=========");
+/*
+비교 연산자
+: 두 값을 비교하는 연산자
+
+=== : 같다(동등 비교 연산자)
+!== : 같지 않다
+> : 크다
+>= : 크거나 같다
+< : 작다
+<= : 작거나 같다
+
+*/
+
+let numberF = 2;
+let numberG = 2;
+let numberH = "2";
+
+console.log(numberF === numberG); // true
+console.log(numberG === numberH); // false
+console.log("=========");
+
+let numberI = 2;
+let numberJ = 2;
+let numberK = "2";
+
+console.log(numberI === numberJ); // true
+console.log(numberJ === numberK); // false
+console.log(numberJ == numberK); // == 를 사용해 두 변수의 값을 비교하고 결과를 출력 ==> true
+console.log("=========");
+
+let numberL = 2;
+let numberM = 2;
+let numberN = "2";
+
+console.log(numberL !== numberM); //false
+// numberL와 numberM은 값과 자료형이 모두 일치하기 때문에 출력 결과는 거짓이 된다
+console.log(numberM !== numberN); // true
+// numberM과 numberN의 값은 같지만, 자료형은 다르기 때문에 출력 결과는 참이 된다
+console.log(numberM != numberN); // false
+// numberM과 numberC는 자료형이 다르지만 값은 같기 때문에 출력결과는 거짓이 된다
+console.log("=========");
+/*
+✔️
+!== 연산자는 값과 자료형 중 하나라도 다르면 참으로 판단
+!= 연산자는 자료형은 비교하지 않고 값이 다르면 참으로 판단단
+*/
+
+// 대소비교
+
+let numberO = 1;
+let numberP = 2;
+let numberQ = 3;
+
+console.log(numberO < numberP); // true
+console.log(numberO > numberP); // false
+console.log(numberP < numberQ); // true
+console.log(numberP > numberQ); // false
+console.log("=========");
+// 크거나 같다 >=, 작거나 같다 <=
+
+let numberR = 1;
+let numberS = 2;
+let numberT = 2;
+
+console.log(numberR <= numberB); // true
+console.log(numberR >= numberB); //false
+console.log(numberS <= numberT); // true
+console.log(numberS >= numberT); //true
