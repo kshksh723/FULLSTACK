@@ -191,3 +191,8 @@ console.log(numberR <= numberB); // true
 console.log(numberR >= numberB); //false
 console.log(numberS <= numberT); // true
 console.log(numberS >= numberT); //true
+
+/* null 병합 연산자
+: 값이 확정된 변수를 찾을 때 사용하는 연산자
+값이 '없음'을 나타내는 자료형으로 null과 undefined가 있다
+*/
