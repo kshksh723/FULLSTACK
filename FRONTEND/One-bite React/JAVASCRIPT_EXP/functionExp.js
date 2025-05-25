@@ -39,3 +39,12 @@ function getARENA(a, b) {
 }
 
 getARENA(10, 20); // 200
+
+///////////////////////// 함수 반환
+function getArea12(c, d) {
+  let Area12 = c * d;
+  return Area12;
+  console.log("함수종료");
+}
+let result12 = getArea12(10, 20);
+console.log(result);

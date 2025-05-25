@@ -18,5 +18,7 @@ let username = "aka";
 let usernickname = "별명 추천 좀";
 
 let userid = username ?? usernickname;
+let userexp = usernickname ?? username;
 
 console.log(userid); // aka
+console.log(userexp);
