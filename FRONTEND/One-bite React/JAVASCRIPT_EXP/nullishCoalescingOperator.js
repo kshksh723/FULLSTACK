@@ -21,4 +21,4 @@ let userid = username ?? usernickname;
 let userexp = usernickname ?? username;
 
 console.log(userid); // aka
-console.log(userexp);
+console.log(userexp); // 별명 추천 좀

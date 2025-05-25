@@ -47,4 +47,15 @@ function getArea12(c, d) {
   console.log("함수종료");
 }
 let result12 = getArea12(10, 20);
-console.log(result);
+console.log(result12); // 200
+
+console.log("==========================");
+
+function getArea31(e, f) {
+  let Area31 = e * f;
+  return Area31;
+  console.log("함수종료");
+}
+
+let result123 = getArea31(10, 20);
+console.log(result123); // 200
