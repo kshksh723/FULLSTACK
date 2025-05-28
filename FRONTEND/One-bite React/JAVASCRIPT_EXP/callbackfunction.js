@@ -12,7 +12,7 @@ parentFunc(childFunc);
 
 // parent
 // child
-
+console.log("================");
 // 콜백함수가 필요한 이유  : 0 부터 전달받은 숫자만큼 반복하는 함수
 function repeat(count) {
   for (let idx = 0; idx < count; idx++) {
@@ -26,6 +26,8 @@ repeat(5);
 // 4
 // 5
 
+console.log("================");
+
 // 다른 기능을 추가로 한다면
 function repeat1(count1) {
   for (let idx1 = 0; idx1 < count1; idx1++) {
@@ -34,11 +36,30 @@ function repeat1(count1) {
 }
 
 function repeatDouble(count1) {
-  for (let idx2 = 0; idx2 < count1; idx2++) {
-    console.log(idx2 + 1 * 2);
+  for (let idx1 = 0; idx1 < count1; idx1++) {
+    console.log((idx1 + 1) * 2);
   }
 }
 
 repeatDouble(5);
 
+console.log("================");
+
 // 콜백함수를 사용하면 이러한 문제를 효과적으로 해결할 수 있음
+function repeat2(count2, callBack2) {
+  for (let idx = 0; idx < count2; idx++) {
+    callBack2(idx + 1);
+  }
+}
+
+function origin(count2) {
+  console.log(count2);
+}
+repeat(5, origin);
+/*
+1
+2
+3
+4
+5
+*/
