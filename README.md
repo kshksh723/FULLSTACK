@@ -4,11 +4,11 @@
 
 ### 1. 한 입 크기로 잘라먹는 리액트
 
-### 2. 모던 자바스크립트 Deep Dive
+### 2. try! helloworld 자바스크립트
 
-### 3. try! helloworld 자바스크립트
+### 3. Do it! HTML+CSS+자바스크립트 웹 표준의 정석
 
-### 4. Do it! HTML+CSS+자바스크립트 웹 표준의 정석
+### 4. 모던 자바스크립트 Deep Dive
 
 ### 5. 리액트를 다루는 기술
 
