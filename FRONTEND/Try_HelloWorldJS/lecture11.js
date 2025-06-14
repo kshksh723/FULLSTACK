@@ -27,3 +27,9 @@ function print(msg) {
   console.log(msg); // 그 사이에 인수로 입력한 문자열 메시지(hello function)가 출력
   console.log("print function out"); // print function out이 출력되고
 } // 마찬가지로 반환값이 없음(undefined)
+
+// sum() 함수의 코드
+function sum(arg1, arg2) {
+  var result = arg1 + arg2;
+  return result;
+}
