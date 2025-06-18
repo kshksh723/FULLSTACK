@@ -5,3 +5,13 @@ var arr = [1, 2, 3, 4, 5];
 function firstElement(arr) {
   return arr[0];
 }
+
+// 배열 arr의 맨 앞에는 "begin", 맨 뒤에는 "end" 문자열을 엘리먼트로 추가하시오. push()와 unshift() 명령을 사용하면 됨
+var arr1 = [1, 2, 3];
+// arr의 맨 앞에 "begin", 맨 뒤에는 "end"를 엘리먼트로 추가
+// push()와 unshift() 명령을 이용함
+var a = arr1.push("end");
+console.log(a);
+
+var b = arr1.unshift("begin");
+console.log(b);
