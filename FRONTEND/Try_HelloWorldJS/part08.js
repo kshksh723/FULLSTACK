@@ -45,3 +45,21 @@ funtion isLeapYear(year){
     return(year % 4 == 0);
 }
 */
+
+// 각 달을 month라는 인자로 받아서 그 달이 며칠까지 있는지 반환하는 daysinMonth() 함수를 완성하세요(2월은 28일까지 있다고 가정)
+function daysinMonth(month) {
+  // 여기에 switch 문을 이용해 각 달의 날짜 수를 반환하는 프로그램을 작성
+  switch (month) {
+    case 2:
+      return 28;
+    case 4:
+    case 5:
+    case 6:
+    case 9:
+    case 10:
+    case 11:
+      return 30;
+    default:
+      return 31;
+  }
+}
