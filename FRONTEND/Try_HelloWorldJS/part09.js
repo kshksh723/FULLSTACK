@@ -28,4 +28,11 @@ function sumFrom1ToN(n) {
 // count : 1 -> 2 -> 3 -> 4
 // sum : 0 + 1 = 1 , 1 + 2 = 3,  3 + 3 = 6
 // n : 3
-//
+
+// for 반복문을 이용해서 배열 cost의 값을 모두 더해 total_cost 변수에 저장하세요
+var cost = [85, 42, 37, 10, 22, 8, 15];
+var total_cost = 0;
+
+for (var i = 0; i < cost.length; i++) {
+  total_cost = total_cost + cost[i];
+}
