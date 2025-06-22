@@ -36,3 +36,17 @@ var total_cost = 0;
 for (var i = 0; i < cost.length; i++) {
   total_cost = total_cost + cost[i];
 }
+
+// for in 문을 이용해서 obj의 속성이 숫자형인 값을 모두 더해서 변수 sum에 저장하도록 빈칸을 채우기
+
+var obj = {
+  name: "object",
+  age: 10,
+  weight: 5,
+};
+var sum = 0;
+for (var property in obj) {
+  if (typeof obj[property] == "number") {
+    sum = sum + obj[property];
+  }
+}
