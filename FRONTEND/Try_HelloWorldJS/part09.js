@@ -28,3 +28,4 @@ function sumFrom1ToN(n) {
 // count : 1 -> 2 -> 3 -> 4
 // sum : 0 + 1 = 1 , 1 + 2 = 3,  3 + 3 = 6
 // n : 3
+//
