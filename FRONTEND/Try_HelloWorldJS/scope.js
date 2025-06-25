@@ -8,5 +8,7 @@ function a() {
     console.log("b: ", typeof v, typeof v_a, typeof v_b);
   }
   b(); // a() 함수 안에서 b() 함수를 호출
-  console.log("a : ");
+  console.log("a : ", typeof v, typeof v_a, typeof v_b);
 }
+
+var v = "v"; // a()
